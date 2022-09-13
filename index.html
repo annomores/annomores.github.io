@@ -24,7 +24,7 @@
                     href="ftp://user:password@example.com/myfile.zip">Файл с
                     авторизацией</a></li>
                     <li>Ссылка на фрагмент страницы некоторого сайта:&nbsp;<a target="_blank"
-                    href="https://www.kubsu.ru/ru/taxonomy/term/2#%D0%94%D0%B5%D0%BD%D1%8C%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%B2%20%D0%9A%D1%83%D0%B1%D0%93%D0%A3!:~:text=%D0%94%D0%B5%D0%BD%D1%8C%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%D0%B2%20%D0%9A%D1%83%D0%B1%D0%93%D0%A3!">День знаний в КубГУ</a></li>
+                    href="https://anekdoty.ru/pro-universitet/page/2/#68651">Анекдот</a></li>
             <li>Ссылка на фрагмент текущей страницы:&nbsp;<a
                     href="#form" title="Форма">Форма</a></li>
             <li>Ссылка с двумя параметрами в URL:&nbsp;<a target="_blank"
@@ -33,40 +33,51 @@
             <li>Список ссылок основной навигации сайта с подписями title:&nbsp;<a href="#links" title="Ссылки">Ссылки</a>,&nbsp;<a
                     href="#form" title="Форма">Форма</a></li>
             <li>Список ссылок основной навигации сайта с подписями title:
-                
+                <ul>
                     <li><a href="#links" title="Ссылки">Ссылки</a></li>
-                    <li><a href=">Форма</a></li>
+                    <li><a href="#form" title="Форма">Форма</a></ul></li>
                 
             </li>
-                        
             <li>Ссылка без href:&nbsp;<a>Ссылка без href</a></li>
             <li>Ссылка с пустным href:&nbsp;<a href=">Ссылка с пустым href</a></li>
             <li>Ссылка, по которой запрещен переход поисковикам:&nbsp;<a target="_blank"
-                    href="https://vk.com" rel="nofollow">Вконтакте</a></li>
+                    href="https://www.wikipedia.org" rel="nofollow">Wikipedia</a></li>
             <li>Ссылка, запрещенная для индексации поисковиками:&nbsp;<noindex--><a target="_blank"
-                        href="https://vk.com">Вконтакте</a></noindex-->
+                        href="https://vk.com/feed">Вконтакте</a></noindex-->
             </li>
-            <li>
-            </li>
+            <li>Ссылка контекстная в тексте абзаца:<p><a target="_blank"
+                        href="https://www.kubsu.ru/">
+                        Куба́нский госуда́рственный университе́т (КубГУ)</a> — высшее учебное заведение в <a target="_blank"
+                        href="https://ru.wikipedia.org/wiki/Краснодар">Краснодаре</a>.</p> </li>
             <li>Ссылка изображение:<br>
                 <a target="_blank" href="https://www.kubsu.ru/sites/default/files/news/1_obnovlennyy_fasad_kubgu.jpg"><img src=""
                         alt="Фото лучшего ВУЗа"></a>
             </li>
             <li>
-				<p>Выбери фигуру:</p>
-<img src = "map.png" usemap = "#figuri" alt = "Доступны 4 фигуры для выбора" >
-<map name = "figuri" >
-<area shape = "rect" coords = "25,25,125,125" href = "red.html" alt = "Красный квадрат" >
-<area shape = "circle" coords = "200,75,50" href = "green.html" alt = "Зелёный круг." >
-<area shape = "poly" coords = "325,25,262,125,388,125" href = "blue.html" alt = "Голубой треугольник" >
-<area shape = "poly" coords = "450,25,435,60,400,75,435,90,450,125,465,90,500,75,465,60" href = "yellow.html" alt = "Желтая звезда" >
+                <ul>
+              
+
+   
+    <map name="kub">
+<area shape="rect" coords="0,0,138,79"  href="https://anekdoty.ru/pro-universitet/#67775"
+alt="" />
 </map>
-				<img src="https://ru.lovepik.com/image-400382810/data-analysis-pie-chart.html" alt="diagrammimg" usemap="#diagramm">
-			</li>
-           
+        <li><img width="138" heigh="79"alt="" src="https://www.kubsu.ru/sites/default/files/insert/page/fktipm.png" usemap="#kub" /></li>
+<map name="smile">
+<area shape="circle" coords="50,50,45"  href="http://студенту.рф/uploads/posts/2018-09/1537174725_ar.jpg"
+alt="" />
+</map>
+        <li><img width="100" heigh="100"alt="" src="https://pngimg.com/uploads/smiley/smiley_PNG198.png" usemap="#smile" /></li>
+    </ul>
+            <li><a href="./example.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/example.html">Относительная ссылка на страницу в каталоге about</a></li>
+            <li><a href="../example.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="../../example.com">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+            <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+            <li><a href="/example.html">Сокращенная ссылка на внутреннюю страницу</a></li>
         </ol>
     </div>
-        <h2><centre>< id="form"Форма></centre></h2>
+     <h3><center><id="form">Форма</center></h3>
     <div>
         <form action="#" method="POST">
             <fieldset>

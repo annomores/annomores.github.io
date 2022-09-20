@@ -1,11 +1,12 @@
 *
 {
-	font-family: 'fantasy', Impact;
+	font-family: 'Impact', fantasy;
 }
 header
 {
 	padding: 15px;
 	height: 150px;
+	background-color: #AF4425;
 	border-radius: 0 0 20px 20px;
 }
 header img

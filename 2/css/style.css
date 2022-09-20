@@ -1,10 +1,10 @@
 *
 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'fantasy', Impact;
 }
 header
 {
-	padding: 15px;
+	padding: 50px;
 	height: 150px;
 	background-color: #CFFFCC;
 	border-radius: 0 0 20px 20px;
@@ -25,7 +25,7 @@ h1
 body
 {
 	margin: 0;
-	background: url(https://wallpaperaccess.com/full/856328.jpg);
+	background: url(https://i.pinimg.com/originals/43/27/fe/4327fed20a0d79354e2a69c7969d5463.jpg);
 }
 *
 {

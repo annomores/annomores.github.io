@@ -31,7 +31,7 @@ h2
 {
 	margin: 5px 0;
 	text-align: center;
-	color: rgb(28, 82, 111);
+	color: #021C07;
 }
 nav
 {
@@ -90,10 +90,10 @@ td
 footer
 {
 	margin-top: 10px;
-	background: #C9A66B;
+	background: #539F68;
 	padding: 20px;
 }
 footer span
 {
-	color: #539F68;
+	color: #AF4425;
 }

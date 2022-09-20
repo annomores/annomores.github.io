@@ -68,7 +68,7 @@ nav
 	width: 900px;
 	margin: 10px auto 0 auto;
 	padding: 10px 30px;
-	background:rgb(227, 236, 142);
+	background:#539F68;
 	justify-content: space-around;
 	border-radius: 20px 20px 0 0;
 }
@@ -83,7 +83,7 @@ main
 	width: 900px;
 	margin: 0 auto;
 	padding: 10px 30px 20px 30px;
-	background:rgb(227, 236, 142);
+	background:#d6d0bf;
 	border-radius: 0 0 20px 20px;
 }
 .ol-links img
@@ -119,7 +119,7 @@ td
 footer
 {
 	margin-top: 10px;
-	background: rgb(227, 236, 142);
+	background: #C9A66B;
 	padding: 20px;
 }
 footer span

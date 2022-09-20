@@ -16,7 +16,7 @@ header img
 }
 h1
 {
-	color: rgb(227, 236, 142);
+	color: #AF4425;
 	min-width: 1280px;
 	margin: 43px 0;
 	font-size: 55px;
@@ -72,7 +72,7 @@ nav
 	justify-content: space-around;
 	border-radius: 20px 20px 0 0;
 }
-nav a
+nav 
 {
 	margin: 10%;
 	color: rgb(114, 67, 12);

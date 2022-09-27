@@ -145,7 +145,7 @@ p {
 	        flex-direction: column;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
+	background-color: #308f5a;
 	padding: 5px;
 }
 .nav__btm {
@@ -167,7 +167,7 @@ p {
 
 .content {
 	padding: 5px;
-	background-color: #E3EBBC;
+	background-color: #d0f0c0;
 }
 
 .links ol {

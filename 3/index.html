@@ -1,1 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css2">
+	<link rel="shortcut icon" href="https://www.nicepng.com/png/full/34-349028_pepe-the-frog-punching-png-pepe-the-frog.png">
 
+</head>
+<body>
+	<header class="header">
+		<div class="header__row">
+			<div class="header__image">
+				<img src="../img/logo.png" alt="logo">
+			</div>
+			<div class="header__text">
+				<h1>Ковёр не воробей, вылетит — не поймаешь</h1>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<div class="container">
+			<nav class="nav">
+				<div class="nav__item">
+					<div class="nav__btm">
+						<div class="nav__ref">
+							<a href="#links">Ссылки</a>
+						</div>
+					</div>
+				</div>
+				<div class="nav__item">
+					<div class="nav__btm">
+						<div class="nav__ref">
+							<a href="#form">Форма</a>
+						</div>
+					</div>
+				</div>
+				<div class="nav__item">
+					<div class="nav__btm">
+						<div class="nav__ref">
+							<a href="#table">Таблица</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="content">
+				<div class="links">
+					<h2 class="links__title title" id="links">Ссылки</h2>
+			<ol>
+            <li>Гиперссылка на главную страницу сайта:&nbsp;<a target="_blank" href="http://www.kubsu.ru/">Любимый ВУЗ</a>
+            </li>
+            <li>Гиперссылка на главную страницу сайта с протоколом https:&nbsp;<a target="_blank"
+                    href="https://www.kubsu.ru/">Тот же любимый ВУЗ</a></li>
+            <li>Ссылка на файл на сервере FTP без авторизации:&nbsp;<a href="ftp://example.com/myfile.zip">Файл</a></li>
+            <li>Ссылка на файл на сервере FTP с авторизацией:&nbsp;<a
+                    href="ftp://user:password@example.com/myfile.zip">Файл с
+                    авторизацией</a></li>
+                    <li>Ссылка на фрагмент страницы некоторого сайта:&nbsp;<a target="_blank"
+                    href="https://anekdoty.ru/pro-universitet/page/2/#68651">Анекдот</a></li>
+            <li>Ссылка на фрагмент текущей страницы:&nbsp;<a
+                    href="#form" title="Форма">Форма</a></li>
+            <li>Ссылка с двумя параметрами в URL:&nbsp;<a target="_blank"
+                    href="https://yandex.ru/search/?text=КубГУ&lr=35">
+                    Поиск: КубГУ</a></li>
+            <li>Список ссылок основной навигации сайта с подписями title:&nbsp;<a href="#links" title="Ссылки">Ссылки</a>,&nbsp;<a
+                    href="#form" title="Форма">Форма</a></li>
+            <li>Список ссылок основной навигации сайта с подписями title:
+                <ul>
+                    <li><a href="#links" title="Ссылки">Ссылки</a></li>
+                    <li><a href="#form" title="Форма">Форма</a></ul></li>
+                
+            </li>
+            <li>Ссылка без href:&nbsp;<a>Ссылка без href</a></li>
+            <li>Ссылка с пустным href:&nbsp;<a href=">Ссылка с пустым href</a></li>
+            <li>Ссылка, по которой запрещен переход поисковикам:&nbsp;<a target="_blank"
+                    href="https://www.wikipedia.org" rel="nofollow">Wikipedia</a></li>
+            <li>Ссылка, запрещенная для индексации поисковиками:&nbsp;<noindex--><a target="_blank"
+                        href="https://vk.com/feed">Вконтакте</a></noindex-->
+            </li>
+            <li>Ссылка контекстная в тексте абзаца:<p><a target="_blank"
+                        href="https://www.kubsu.ru/">
+                        Куба́нский госуда́рственный университе́т (КубГУ)</a> — высшее учебное заведение в <a target="_blank"
+                        href="https://ru.wikipedia.org/wiki/Краснодар">Краснодаре</a>.</p> </li>
+            <li>Ссылка изображение:<br>
+                
+<a target="_blank" href="https://www.kubsu.ru/"><img src="https://www.kubsu.ru/sites/default/files/news/1_obnovlennyy_fasad_kubgu.jpg" alt="image"></a>
+         </li>
+            <li>
+                <ul>
+  <map name="kub">
+<area shape="rect" coords="0,0,138,79"  href="https://anekdoty.ru/pro-universitet/#67775"
+alt="" />
+</map>
+        <li><img width="138" heigh="79"alt="" src="https://www.kubsu.ru/sites/default/files/insert/page/fktipm.png" usemap="#kub" /></li>
+<map name="smile">
+<area shape="circle" coords="50,50,45"  href="http://студенту.рф/uploads/posts/2018-09/1537174725_ar.jpg"
+alt="" />
+</map>
+        <li><img width="100" heigh="100"alt="" src="https://pngimg.com/uploads/smiley/smiley_PNG198.png" usemap="#smile" /></li>
+    </ul>
+            <li><a href="./example.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+            <li><a href="./about/example.html">Относительная ссылка на страницу в каталоге about</a></li>
+            <li><a href="../example.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+            <li><a href="../../example.com">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+            <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+            <li><a href="/example.html">Сокращенная ссылка на внутреннюю страницу</a></li>
+        </ol>
+    </div>
+                <h2 id="table">Таблица</h2>
+		<div>
+			<table>
+				<tr>
+					<th class="table-cpu" rowspan="2">Факультет</th>
+					<th colspan="3">Пропуски пар</th>
+					
+				</tr>
+				<tr>
+					<th>1 курс</th>
+					<th>2 курс</th>
+					<th>3 курс</th>
+				</tr>
+				<tr>
+					<td>РГФ</td>
+					<td>29</td>
+					<td>100</td>
+					<td>150</td>
+					
+				</tr>
+				<tr>
+					<td>ФТФ</td>
+					<td>50</td>
+					<td>120</td>
+					<td>190</td>
+					
+				</tr>
+				<tr>
+					<td>ФУП</td>
+					<td>50</td>
+					<td>99</td>
+					<td>249</td>
+					
+				</tr>
+				<tr>
+					<td>ФМиКН</td>
+					<td>32</td>
+					<td>32</td>
+					<td>32</td>
+					
+				</tr>
+				<tr>
+					<td>ФКТиПМ</td>
+					<td>0</td>
+					<td>1</td>
+					<td>2</td>
+					
+				</tr>
+				<tr>
+					<td>ИГГТиС</td>
+					<td>40</td>
+					<td>80</td>
+					<td>160</td>
+					
+				</tr>
+			</table>
+		</div>
+     <h2 id="form">Форма</h2>
+    <div>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Ваши данные</legend>
+                <label>Имя<br><br>
+                    <input placeholder="Имя" type="text" name="field-name" value="">
+                    </label>
+                <p>
+                    <label>E-mail<br><br>
+                        <input placeholder="E-mail" type="text" name="field-email" value="">
+                    </label>
+                </p>
+                <p>
+                    <label>Дата рождения<br><br>
+                        <input type="date" name="field-date" value="2000-01-01">
+                    </label>
+                </p>
+                <p>Пол<br><br>
+                    <label><input type="radio" name="radio-gender" value="man">Мужской</label>
+                    <label><input type="radio" name="radio-gender" value="woman">Женский</label>
+                </p>
+                <p>Количество конечностей<br><br>
+                    <label><input type="radio" name="radio-numlimbs" value="1">1</label>
+                    <label><input checked type="radio" name="radio-numlimbs" value="2">2</label>
+                    <label><input type="radio" name="radio-numlimbs" value="4">4</label>
+                    <label> <input type="radio" name="radio-numlimbs" value="8">8</label>
+                    <label> <input type="radio" name="radio-numlimbs" value="16">16</label>
+                </p>
+                <p>
+                    <label>Сверхспособности<br><br>
+                        <select multiple name="super-powers">
+                            <option value="pizza">Летать</option>
+                            <option selected value="sleep">Телепатия</option>
+                            <option value="concentration">Безнаказанный пропуск пар</option>
+                        </select>
+                    </label>
+                </p>
+                <div>
+                    <p>
+                        <label>Биография<br><br>
+                            <textarea placeholder="Расскажите о себе" name="user-biography" id="biography"></textarea>
+                        </label>
+                    </p>
+                </div>
+                <p>
+                    <label>
+                            <input type="checkbox" name="user-agree" value="true">Ознакомлен(а)
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Отправить">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<footer class="footer">
+		<div class="footer__row">
+			<div class="footer__text">Nesterenko</div>
+		</div>
+	</footer>
+</body>
+</html>

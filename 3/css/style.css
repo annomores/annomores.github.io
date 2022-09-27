@@ -126,7 +126,7 @@ body {
 .title {
 	text-align: center;
 	font-size: 11px;
-	color: #1c526f;
+	color: #3f6135;
 	font-weight: bold;
 	margin: 10px 0;
 }
@@ -145,7 +145,7 @@ p {
 	        flex-direction: column;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	background: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
+	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
 	padding: 5px;
 }
 .nav__btm {
@@ -217,12 +217,12 @@ p {
 	        order: 1;
 }
 .form fieldset {
-	border: 1px solid #1c526f;
+	border: 1px solid #4f7942 ;
 }
 .form legend {
 	margin: 0 5px;
 	padding: 0 5px;
-	color: #1c526f;
+	color: #4f7942 ;
 }
 
 .footer {
@@ -298,7 +298,7 @@ p {
 
 	.header {
 		padding: 25px;
-		background-color: #AF4425;
+		background-color: #5B976B;
 		margin: 0 0 10px 0;
 		border-radius: 0 0 20px 20px;
 	}

@@ -63,95 +63,86 @@ p
 {
 	margin: 5px;
 }
-.nav
-{
+.nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	background-color:#539F68;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	background-color: #d7ac7a;
 	padding: 5px;
-	&__btm
-	{
-		display: block;
-		text-align: center;
-		width: 20%;
-		background-color: rgb(139, 114, 84);
-		height: 40px;
-		line-height: 40px;
-		border-radius: 10px;
-		margin: 5px 0;
-	}
-	&__btm:hover
-	{
-		background-color: rgb(110, 89, 65);
-	}
-	&__ref a
-	{
-		color: white;
-	}
 }
-.content
-{
+.nav__btm {
+	display: block;
+	text-align: center;
+	width: 20%;
+	background-color: #8b7254;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 10px;
+	margin: 5px 0;
+}
+.nav__btm:hover {
+	background-color: #6e5941;
+}
+.nav__ref a {
+	color: white;
+}
+
+.content {
 	padding: 5px;
 	background-color: #EBDCB2;
 }
-.links
-{
-	& ol
-	{
-		margin: 0 0 0 20px;
-	}
-	& li
-	{
-		line-height: 15px;
-	}
-	& ol a
-	{
-		text-decoration: underline;
-	}
-	& ol img
-	{
-		margin: 5px -10px;
-	}
+
+.links ol {
+	margin: 0 0 0 20px;
 }
-.table-form
-{
-	display: flex;
-	flex-direction: column;
+.links li {
+	line-height: 15px;
 }
-.table
-{
-	order: 2;
-	//margin: 0 0 30px 0;
+.links ol a {
+	text-decoration: underline;
+}
+.links ol img {
+	margin: 5px -10px;
+}
+
+.table {
+	-webkit-box-ordinal-group: 3;
+	    -ms-flex-order: 2;
+	        order: 2;
 	margin: 0 0 10px 0;
-	&__cpu
-	{
-		width: 100%;
-		margin: 0 auto;
-		text-align: center;
-		border-collapse: collapse;
-		border: 2px solid black;
-		th, td
-		{
-			padding: 1px;
-			border: 2px solid black;
-		}
-	}
 }
-.form
-{
-	order: 1;
-	& fieldset
-	{
-		border: 1px solid rgb(28, 82, 111);
-	}
-	& legend
-	{
-		margin: 0 5px;
-		padding: 0 5px;
-		color: rgb(28, 82, 111);
-	}
+.table__cpu {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border-collapse: collapse;
+	border: 2px solid black;
 }
+.table__cpu th, .table__cpu td {
+	padding: 1px;
+	border: 2px solid black;
+}
+
+.form {
+	-webkit-box-ordinal-group: 2;
+	    -ms-flex-order: 1;
+	        order: 1;
+}
+.form fieldset {
+	border: 1px solid #1c526f;
+}
+.form legend {
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #1c526f;
+}
+
 .footer
 {
 	background-color: #539F68;

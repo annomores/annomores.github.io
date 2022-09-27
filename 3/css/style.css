@@ -77,13 +77,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 12px;
 	font-weight: 700;
-	color: rgb(227, 236, 142);
+	color: #e3ec8e;
 }
 
 body {
 	font-size: 10px;
 	font-family: "Nunito", sans-serif;
-	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
+	background-image: url(../../../img/background.jpg);
 }
 
 .wrapper {
@@ -97,7 +97,7 @@ body {
 
 .header {
 	padding: 5px;
-	background-color: #539F68;
+	background-color: #AF4425;
 }
 .header__row {
 	display: -webkit-box;
@@ -120,13 +120,13 @@ body {
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 1 85%;
 	        flex: 1 1 85%;
-	text-align: left;
+	text-align: center;
 }
 
 .title {
 	text-align: center;
 	font-size: 11px;
-	color: rgb(227, 236, 142);
+	color: #1c526f;
 	font-weight: bold;
 	margin: 10px 0;
 }
@@ -145,7 +145,7 @@ p {
 	        flex-direction: column;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	background-color: #539F68;
+	background-color: #d7ac7a;
 	padding: 5px;
 }
 .nav__btm {
@@ -226,7 +226,7 @@ p {
 }
 
 .footer {
-	background-color: #539F68;
+	background-color: #C9A66B;
 }
 .footer__row {
 	display: -webkit-box;
@@ -246,7 +246,7 @@ p {
 
 @media screen and (min-width: 425px) {
 	h1 {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	body {
@@ -298,7 +298,7 @@ p {
 
 	.header {
 		padding: 25px;
-		background-color: #539F68;
+		background-color: #AF4425;
 		margin: 0 0 10px 0;
 		border-radius: 0 0 20px 20px;
 	}

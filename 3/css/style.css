@@ -145,7 +145,7 @@ p {
 	        flex-direction: column;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	background-color: #d7ac7a;
+	background: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
 	padding: 5px;
 }
 .nav__btm {
@@ -167,7 +167,7 @@ p {
 
 .content {
 	padding: 5px;
-	background-color: #EBDCB2;
+	background-color: #E3EBBC;
 }
 
 .links ol {
@@ -194,7 +194,7 @@ p {
 }
 
 .table {
-	-webkit-box-ordinal-group: 3;
+	-webkit-box-ordinal-group: 4;
 	    -ms-flex-order: 2;
 	        order: 2;
 	margin: 0 0 10px 0;
@@ -226,7 +226,7 @@ p {
 }
 
 .footer {
-	background-color: #C9A66B;
+	background-color: #5B976B;
 }
 .footer__row {
 	display: -webkit-box;
@@ -241,7 +241,7 @@ p {
 	height: 50px;
 }
 .footer__text {
-	color: #55462b;
+	color: #CD5B45;
 }
 
 @media screen and (min-width: 425px) {

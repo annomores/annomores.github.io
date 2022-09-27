@@ -2,9 +2,9 @@
 /*!Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 * {
-	padding: 0;
-	margin: 0;
-	border: 0;
+	padding: 10;
+	margin: 10;
+	border: 10;
 }
 
 *, *:before, *:after {
@@ -83,7 +83,7 @@ h1 {
 body {
 	font-size: 10px;
 	font-family: "Nunito", sans-serif;
-	background-image: url(../../../img/background.jpg);
+	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
 }
 
 .wrapper {
@@ -97,7 +97,7 @@ body {
 
 .header {
 	padding: 5px;
-	background-color: #AF4425;
+	background-color: #5B976B;
 }
 .header__row {
 	display: -webkit-box;

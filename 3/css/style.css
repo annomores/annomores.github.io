@@ -2,9 +2,9 @@
 /*!Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 * {
-	padding: 10;
-	margin: 10;
-	border: 10;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 *, *:before, *:after {

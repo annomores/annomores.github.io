@@ -217,7 +217,7 @@ p {
    padding: 20px;
    background: #fffdee;
    border: 10px solid transparent;
-   border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+   border-image: 10 repeating-linear-gradient(135deg, #40826d, #40826d 10px, transparent 10px, transparent 20px, #ace1af 20px, #ace1af 30px, transparent 30px, transparent 40px);
    font-family: 'Playfair Display';
    color: #605756;
 }
@@ -242,7 +242,7 @@ p {
 .form-row input[type="submit"] {
    padding: 10px 20px;
    margin-top: 10px;
-   background: #F67CA5;
+   background: #5B976B;
    border-width: 0;
    cursor: pointer;
    outline: none;
@@ -254,8 +254,12 @@ p {
    transition: 1s cubic-bezier(.165, .84, .44, 1);
 }
 .form-row input[type=submit]:hover {
-   background: #C42061;
+   background: #40826d;
 }
+.form legend {
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #4f7942 ;
 
 .footer {
 	background-color: #5B976B;

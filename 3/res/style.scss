@@ -9,13 +9,13 @@ h1
 	
 		font-size: 12px;
 		font-weight: 700;
-		color: rgb(227, 236, 142);
+		color: #e3ec8e;
 }
 body
 {
 	font-size: 10px;
 	font-family: 'Nunito', sans-serif;
-	background-image: url(../../../img/background.jpg);
+	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
 }
 .wrapper
 {
@@ -29,7 +29,7 @@ body
 .header
 {
 	padding: 5px;
-	background-color: #AF4425;
+	background-color: #5B976B;
 	&__row
 	{
 		display: flex;
@@ -55,7 +55,7 @@ body
 {
 	text-align: center;
 	font-size: 11px;
-	color: rgb(28, 82, 111);
+	color: #3f6135;
 	font-weight: bold;
 	margin: 10px 0;
 }
@@ -68,14 +68,14 @@ p
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	background-color: rgb(215, 172, 122);
+	background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1648657632_7-gamerwall-pro-p-milii-myatnii-fon-krasivie-7.png);
 	padding: 5px;
 	&__btm
 	{
 		display: block;
 		text-align: center;
 		width: 20%;
-		background-color: rgb(139, 114, 84);
+		background-color: #8b7254;
 		height: 40px;
 		line-height: 40px;
 		border-radius: 10px;
@@ -83,7 +83,7 @@ p
 	}
 	&__btm:hover
 	{
-		background-color: rgb(110, 89, 65);
+		background-color: #6e5941;
 	}
 	&__ref a
 	{
@@ -93,7 +93,7 @@ p
 .content
 {
 	padding: 5px;
-	background-color: #EBDCB2;
+	background-color: #E3EBBC;
 }
 .links
 {
@@ -143,18 +143,18 @@ p
 	order: 1;
 	& fieldset
 	{
-		border: 1px solid rgb(28, 82, 111);
+		border: 1px solid #4f7942;
 	}
 	& legend
 	{
 		margin: 0 5px;
 		padding: 0 5px;
-		color: rgb(28, 82, 111);
+		color:  #4f7942;
 	}
 }
 .footer
 {
-	background-color: #C9A66B;
+	background-color: #5B976B;
 	&__row
 	{
 		display: flex;
@@ -164,7 +164,7 @@ p
 	}
 	&__text
 	{
-		color: #55462b;
+		color: #CD5B45;
 	}
 }
 @media screen and (min-width: 425px)
@@ -231,7 +231,7 @@ p
 	.header
 	{
 		padding: 25px;
-		background-color: #AF4425;
+		background-color:  #5B976B;
 		margin: 0 0 10px 0;
 		border-radius: 0 0 20px 20px;
 	}

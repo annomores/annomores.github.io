@@ -205,6 +205,11 @@ p {
 .calc fieldset {
 	border: 1px solid #4f7942 ;
 }
+	.calc legend {
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #4f7942 ;
+}
 }
 .table-form {
 	display: -webkit-box;

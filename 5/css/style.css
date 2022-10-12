@@ -191,6 +191,9 @@ p {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+.calc fieldset {
+	border: 1px solid #4f7942 ;
+}
 .calc__item {
 	display: -webkit-box;
 	display: -ms-flexbox;

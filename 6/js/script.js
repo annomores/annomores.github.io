@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
 	console.log("DOM fully loaded and parsed");
 	let button = document.getElementById("final-price");
 	button.addEventListener("click", calculator);
-});
+
 let carpetCount = document.getElementsByName("carpet_count");
 	carpetCount[0].addEventListener("change", calculator2);
 	let calcRadio = document.querySelector(".calc__radio");

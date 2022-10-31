@@ -37,10 +37,10 @@ function calculator2() {
 	let s = a;
 
 	let b;
-	if (parseInt(carpetType[0].value) === 1) {
+	if (parseInt(frogType[0].value) === 1) {
 		b = 100;
 	}
-	else if (parseInt(carpetType[0].value) === 2) {
+	else if (parseInt(frogType[0].value) === 2) {
 		b = 450;
 	}
 	else {
@@ -48,7 +48,7 @@ function calculator2() {
 	}
 
 
-	if (parseInt(carpetType[0].value) === 3 && calcRadio1[0].checked === false && calcRadio1[1].checked === false) {
+	if (parseInt(frogType[0].value) === 3 && calcRadio1[0].checked === false && calcRadio1[1].checked === false) {
 		carpeResult[0].value = "";
 		return;
 	}
@@ -60,9 +60,9 @@ function calculator2() {
 	}
 
 	s = s * b;
-	if (carpetLamp[0].checked === true) {
+	if (veselayaPEPE[0].checked === true) {
 		s += 50;
 	}
 
-	carpeResult[0].value = s;
+	frogResult[0].value = s;
 }

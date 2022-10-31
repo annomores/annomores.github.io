@@ -24,12 +24,12 @@ window.addEventListener('DOMContentLoaded', function (event) {
 	let button = document.getElementById("final-price");
 	button.addEventListener("click", calculator);
 
-let carpetCount = document.getElementsByName("carpet_count");
+let carpetCount = document.getElementsByName("frog_count");
 	carpetCount[0].addEventListener("change", calculator2);
 	let calcRadio = document.querySelector(".calc__radio");
 	let calcCheckbox = document.querySelector(".calc__checkbox");
 
-let calcRadio1 = document.getElementsByName("radio-carpet");
+let calcRadio1 = document.getElementsByName("radio-frog");
 	calcRadio1[0].addEventListener("change", calculator2);
 	calcRadio1[1].addEventListener("change", calculator2);
 
@@ -40,7 +40,7 @@ let calcRadio1 = document.getElementsByName("radio-carpet");
 			calcRadio.style.display = "none";
 			calcCheckbox.style.display = "none";
 		}
-		else if (parseInt(carpetType[0].value) === 2) {
+		else if (parseInt(frogType[0].value) === 2) {
 			calcRadio.style.display = "none";
 			calcCheckbox.style.display = "flex";
 		}
@@ -80,7 +80,7 @@ function calculator2() {
 	if (parseInt(frogType[0].value) === 1) {
 		b = 100;
 	}
-	else if (parseInt(carpetType[0].value) === 2) {
+	else if (parseInt(frogType[0].value) === 2) {
 		b = 450;
 	}
 	else {
@@ -104,5 +104,5 @@ function calculator2() {
 		s += 50;
 	}
 
-	carpeResult[0].value = s;
+	frogResult[0].value = s;
 }

@@ -153,25 +153,47 @@ alt="" />
 		   
 					
 				</div>
-              <div class="calc__item calc__radio">
+            <div class="calc">
+					<h2 class="title">Калькулятор 2.0</h2>
+					<form>
+						<div class="calc__row">
+							<div class="calc__item">
 								<p>
-									<label><input id="radio-frog-1" type="radio" name="radio-frog"
-											value="Малютка">Малютка РЕРЕ</label>
-									<label><input id="radio-frog-2" type="radio" name="radio-frog"
-											value="BIG">Большой жаб</label>
-								</p>
-							</div>
-							<div class="calc__item calc__checkbox">
-								<p>
-									<label>
-										<input type="checkbox" name="veselaya_PEPE" value="true"> Весёлая PEPE (50₽)
+									<label>Количество<br><br>
+										<input placeholder="Количество" name="frog_count" type="text">
 									</label>
 								</p>
 							</div>
 							<div class="calc__item">
 								<p>
-									<label>Результат<br><br>
-										<input id="frog_result" name="frog_result" type="text" readonly>
+									<label>Тип лягушки<br><br>
+										<select name="frog_type">
+											<option value="1">Маленькая РЕРЕ (100₽)</option>
+											<option value="2">Средняя РЕРЕ (450₽)</option>
+											<option value="3">BIG РЕРЕ (300₽)</option>
+										</select>
+									</label>
+								</p>
+							</div>
+							<div class="calc__item calc__radio">
+								<p>
+									<label><input id="radio-frog-1" type="radio" name="radio-frog"
+											value="Litle frog">Малютка РЕРЕ</label>
+									<label><input id="radio-frog-2" type="radio" name="radio-frog"
+											value="BIG PEPE">BIG FROG</label>
+								</p>
+							</div>
+							<div class="calc__item calc__checkbox">
+								<p>
+									<label>
+										<input type="checkbox" name="veselaya_PEPE" value="true"> Весёлая РЕРЕ(Редкая)
+									</label>
+								</p>
+							</div>
+							<div class="calc__item">
+								<p>
+									<label>Итого:<br><br>
+										<input id="frogt_result" name="frog_result" type="text" readonly>
 									</label>
 								</p>
 							</div>

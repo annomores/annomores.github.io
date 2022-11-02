@@ -204,10 +204,10 @@ p {
 	margin: 5px;
 
 }
-.calc__row fieldset {
+.calc__item fieldset {
 border: 1px solid #4f7942 ;
 }
-.calc__row legend {
+.calc__item legend {
 margin: 0 5px;
 padding: 0 5px;
 color: #4f7942 ;
